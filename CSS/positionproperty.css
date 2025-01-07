@@ -1,0 +1,12 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    padding: 25px;
+    background-color: blue;
+    opacity: 0.5;
+    display: inline-block;
+}
+#box3{
+    position: absolute;
+}

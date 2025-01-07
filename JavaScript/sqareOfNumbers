@@ -1,0 +1,5 @@
+let arr=[4,5,7,12,3];
+function calculateSquare(a){
+    return a*a;
+}
+arr.forEach((val)=>{console.log(val+" : "+calculateSquare(val))});
