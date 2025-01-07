@@ -1,3 +1,10 @@
-let arr=["pune","Mumbai","Delhi"];
-
-arr.forEach((val,idx)=>{console.log(val.toUpperCase(),idx,arr)});
+for(let i=1;i<=100;i++){
+    let j=2;
+    let count=0;
+    while(j<i){
+        if(i%j==0)
+        count++;
+        j++;
+    }
+    if(count==0) console.log(i);
+}
